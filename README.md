@@ -4,6 +4,10 @@ Data Oficial do Evento: 15 a 23 de Outubro 2022
 
 Para acessar o site oficial do evento acesse esse [link](https://2022.pythonbrasil.org.br/).
 
+### Board 
+
+https://github.com/pythonbrasil/pybr2022-org/projects/2
+
 ## Grupos de trabalho
 
 Redes Sociais: Responsável pela postagens no Twitter e Instagram
