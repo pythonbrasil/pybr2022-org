@@ -8,6 +8,12 @@ Para acessar o site oficial do evento acesse esse [link](https://2022.pythonbras
 
 https://github.com/pythonbrasil/pybr2022-org/projects/2
 
+
+### Discussão
+
+https://github.com/pythonbrasil/pybr2022-org/discussions
+
+
 ## Grupos de trabalho
 
 Redes Sociais: Responsável pela postagens no Twitter e Instagram
