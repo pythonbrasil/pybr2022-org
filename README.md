@@ -2,9 +2,9 @@
 
 Data Oficial do Evento: 15 a 23 de Outubro 2022
 
-Para acessar o site oficial do evento acesse esse [link](https://2022.pythonbrasil.org.br/).
+<!--Para acessar o site oficial do evento acesse esse [link](https://2022.pythonbrasil.org.br/).
 
-### Board 
+ ### Board 
 
 https://github.com/pythonbrasil/pybr2022-org/projects/2
 
@@ -19,33 +19,13 @@ https://2022.pythonbrasil.org.br/
 
 ### Código fonte do site:
 
-https://github.com/pythonbrasil/pybr2022-site
+https://github.com/pythonbrasil/pybr2022-site -->
 
-## Grupos de trabalho
+## Datas Importantes
 
-Redes Sociais: Responsável pela postagens no Twitter e Instagram
-
-Site: Responsável por trabalhar na codificação do site, atualizar lista de palestrantes, horário das palestras etc
-
-Marketing/Patrocinio: Entrar em contato com as empresas a fim de obter patrocínio para o evento
-
-Marketing/Material: bolsas, camisas, garrafinhas, brindes, faixas
-
-Marketing/Espaço: alocação de stands para empresas e grupos
-
-Marketing/Conteúdo: atualizar dados sobre Manaus, fazer pequenos vídeos para pormos no canal, hoteis, eventos, passagens
-
-Media: gravação de palestras
-
-Suporte: presença em cada sala, voluntários no dia da conferência
-
-Alimentação: coffee breaks, água, sucos
-
-Limpeza: banheiros, limpeza no fim de semana
-
-Financeiro: Controle das contas, receitas e pagamentos
-
-Documentos: Certificados, crachás
-
-
-**Dicas de como podemos fazer um evento legal? Comente aqui na [issue](https://github.com/pythonbrasil/pybr2022-org/issues/10)**
+- 07/04/22 - Abertura do formulario de submissão de palestras
+- 01/06/22 - Avaliação das submissões (Encerramento das submissões)
+- 01/07/22 - Envio dos convites para as palestrantes convidadas
+- 15/07/22 - Divulgação das palestras nas redes sociais
+- 15/08/22 - Divulgação da grade
+- 15/10/22 - Python Brasil 2022
