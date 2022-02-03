@@ -21,6 +21,14 @@ https://2022.pythonbrasil.org.br/
 
 https://github.com/pythonbrasil/pybr2022-site -->
 
+## Reuniões
+
+**Organização Geral**: Toda quarta-feira de 18:00 às 19:30 (Fuso Manaus) | 19:00 às 20:30 (Fuso Brasília)
+
+**Equipe de Design**: Toda segunda-feira de 18:30 às 19:30 (Fuso Manaus) | 19:30 às 20:30 (Fuso Brasília)
+
+As reuniões são feitas no canal da pybr2022 no discord.
+
 ## Datas Importantes
 
 - 07/04/22 - Abertura do formulario de submissão de palestras
