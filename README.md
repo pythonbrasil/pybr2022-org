@@ -2,11 +2,15 @@
 
 Data Oficial do Evento: 15 a 23 de Outubro 2022
 
+Local: [Centro de Convênções Vasco Vasques](https://www.google.com/maps/place/Centro+de+Conven%C3%A7%C3%B5es+do+Amazonas+-+Vasco+Vasques/@-3.0850963,-60.0276392,15z/data=!4m2!3m1!1s0x0:0x1c983a35228960c1?sa=X&ved=2ahUKEwiKppqJn-n1AhUbGLkGHTYODDIQ_BJ6BAgiEAU)
+
+Para acompanhar as atividades em andamento, acesse este [link](https://github.com/orgs/pythonbrasil/projects/3). 
+
 <!--Para acessar o site oficial do evento acesse esse [link](https://2022.pythonbrasil.org.br/).
 
  ### Board 
 
-https://github.com/pythonbrasil/pybr2022-org/projects/2
+
 
 
 ### Discussão
