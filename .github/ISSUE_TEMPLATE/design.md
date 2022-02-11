@@ -31,8 +31,9 @@ assignees: cmdiasbr, martinsvanessa, paulohenriquedsgn, deboraazevedo
 - [ ] Redes sociais (twitter, facebook e instagram);
 - [ ] E-mail;
 - [ ] Discord PyBr2020;
+- [ ] Discord Pybr2021;
 - [ ] Grupos do Telegram;
-- [ ] Eventos locais (Brasil + América Latina) (pedir 5min para falar sobre PyBR2021)
+- [ ] Eventos locais (Brasil + América Latina) (pedir 5min para falar sobre PyBR2022)
 
 > Ferramenta para verificar [acessibilidade das cores](https://www.toptal.com/designers/colorfilter/) em imagens.
 
