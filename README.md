@@ -31,6 +31,10 @@ https://github.com/pythonbrasil/pybr2022-site -->
 
 **Equipe de Design**: Toda segunda-feira de 18:30 às 19:30 (Fuso Manaus) | 19:30 às 20:30 (Fuso Brasília)
 
+**Onboarding**: Toda segunda-feira de 18:00 às 19:00 (Fuso Manaus) | 19:00 às 20:00 (Fuso Brasília)
+ - Utilizar [apresentação](https://docs.google.com/presentation/d/1x6h7aFsxRuY2x60aWAu123TIYTZgj7e2kzTbVaLUdGw/edit?usp=sharing) da Python BR para novos integrantes
+ - Disponibilizar [Guia De Acessos](https://docs.google.com/document/d/1Byqh1HAAAhM0mjhMbBHr-mhXXABBx9tVqhGaz9Bp5cg/edit?usp=sharing) para novos integrantes
+
 As reuniões são feitas no canal da pybr2022 no discord.
 
 ## Datas Importantes
