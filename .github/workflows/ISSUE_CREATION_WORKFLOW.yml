@@ -6,7 +6,7 @@
 name: Weekly Team Sync
 on:
   schedule:
-    - cron: 30 11 * * 3
+    - cron: 0 12 * * 4
 
 env:
     MONTH_01: "Janeiro"
@@ -31,12 +31,12 @@ jobs:
     steps:
       - name: Set current day
         id: day
-        run: echo "::set-output name=day::$(date +%d)"
+        run: echo "::set-output name=day::$(date -d 'next wednesday' +%d)"
 
       - name: Set current month
         id: month
-        run: echo "::set-output name=month::$(date +%m)"
-        
+        run: echo "::set-output name=month::$(date -d 'next wednesday' +%m)"
+
       - name: Set final month name
         id: month_name
         run: echo "::set-output name=month_name::${!MONTH_NAME_VAR}"
@@ -45,7 +45,7 @@ jobs:
 
       - name: Set the current year
         id: year
-        run: echo "::set-output name=year::$(date +%Y)"
+        run: echo "::set-output name=year::$(date -d 'next wednesday' +%Y)"
 
       - name: Create meeting issue
         uses: imjohnbo/issue-bot@3daae12aa54d38685d7ff8459fc8a2aee8cea98b
@@ -57,10 +57,10 @@ jobs:
           assignees: ""
           labels: "reunião"
           title: "[Reunião] Geral: $DAY de $MONTH_NAME de $YEAR"
-          body: |            
+          body: |
             # Reunião <Grupo de trabalho ou tema da reunião>
 
-            - Data: <! –– data ––>  
+            - Data: <! –– data ––>
             - Participantes:
               - Nome e Sobrenome (@Github ou E-mail)
 
@@ -68,13 +68,13 @@ jobs:
 
             _Adicione os itens que foram discutidos durante a reunião._
 
-            - 
+            -
 
             ### Ações para serem realizadas
 
             - [ ] Atividade (@responsável)
-            - [ ] 
-          pinned: false
+            - [ ]
+          pinned: true
           close-previous: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
