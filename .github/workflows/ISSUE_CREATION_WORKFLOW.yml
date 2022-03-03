@@ -5,6 +5,13 @@
 
 name: Weekly Team Sync
 on:
+  workflow_dispatch:
+    inputs:
+      input:
+        description: "Criação de issue"
+        required: false
+        default: "Issue criada"
+    
   schedule:
     - cron: 0 12 * * 4
 
