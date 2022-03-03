@@ -29,6 +29,8 @@ jobs:
     permissions:
       issues: write
     steps:
+      - env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Set current day
         id: day
         run: echo "::set-output name=day::$(date -d 'next wednesday' +%d)"
@@ -76,5 +78,3 @@ jobs:
             - [ ]
           pinned: true
           close-previous: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
