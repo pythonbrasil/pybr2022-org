@@ -31,11 +31,11 @@ jobs:
     steps:
       - name: Set current day
         id: day
-        run: echo "::set-output name=day::$(date -d 'next wednesday' +%d)"
+        run: echo "::set-output name=day::$(date -d 'next thursday' +%d)"
 
       - name: Set current month
         id: month
-        run: echo "::set-output name=month::$(date -d 'next wednesday' +%m)"
+        run: echo "::set-output name=month::$(date -d 'next thursday' +%m)"
 
       - name: Set final month name
         id: month_name
@@ -45,7 +45,7 @@ jobs:
 
       - name: Set the current year
         id: year
-        run: echo "::set-output name=year::$(date -d 'next wednesday' +%Y)"
+        run: echo "::set-output name=year::$(date -d 'next thursday' +%Y)"
 
       - name: Create meeting issue
         uses: imjohnbo/issue-bot@3daae12aa54d38685d7ff8459fc8a2aee8cea98b
