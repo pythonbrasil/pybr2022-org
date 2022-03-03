@@ -1,4 +1,6 @@
-# Organização Python Brasil 2022
+# Organização Python Brasil 2022 
+
+[![Weekly Team Sync](https://github.com/pythonbrasil/pybr2022-org/actions/workflows/ISSUE_CREATION_WORKFLOW.yml/badge.svg?branch=main)](https://github.com/pythonbrasil/pybr2022-org/actions/workflows/ISSUE_CREATION_WORKFLOW.yml)
 
 Data Oficial do Evento: 15 a 23 de Outubro 2022
 
