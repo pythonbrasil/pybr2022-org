@@ -29,8 +29,6 @@ jobs:
     permissions:
       issues: write
     steps:
-      - env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Set current day
         id: day
         run: echo "::set-output name=day::$(date -d 'next wednesday' +%d)"
@@ -55,10 +53,12 @@ jobs:
           DAY: ${{ steps.day.outputs.day }}
           MONTH_NAME: ${{ steps.month_name.outputs.month_name }}
           YEAR: ${{ steps.year.outputs.year }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           assignees: ""
           labels: "reunião"
           title: "[Reunião] Geral: $DAY de $MONTH_NAME de $YEAR"
+          
           body: |
             # Reunião <Grupo de trabalho ou tema da reunião>
 
