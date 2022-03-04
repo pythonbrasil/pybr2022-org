@@ -2,7 +2,7 @@
 name: Reunião
 about: Registro de reunião, desde a criação da pauta até registro das participantes
   e decisões tomadas
-title: "[Reunião] <Grupo de trabalho ou tema da reunião>: <Data>"
+title: "[Reunião] $GRUPO_DE_TRABALHO_OU_TEMA_DA_REUNIAO: $DATA_DA_REUNIAO"
 labels: reunião
 assignees: ''
 
