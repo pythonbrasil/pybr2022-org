@@ -4,6 +4,7 @@
 # documentação.
 
 name: Weekly Team Sync
+
 on:
   workflow_dispatch:
     inputs:
@@ -11,76 +12,60 @@ on:
         description: "Criação de issue"
         required: false
         default: "Issue criada"
-    
+
   schedule:
     - cron: 0 12 * * 4
 
 env:
-    MONTH_01: "Janeiro"
-    MONTH_02: "Fevereiro"
-    MONTH_03: "Março"
-    MONTH_04: "Abril"
-    MONTH_05: "Maio"
-    MONTH_06: "Junho"
-    MONTH_07: "Julho"
-    MONTH_08: "Agosto"
-    MONTH_09: "Setembro"
-    MONTH_10: "Outubro"
-    MONTH_11: "Novembro"
-    MONTH_12: "Dezembro"
+  MONTH_01: "Janeiro"
+  MONTH_02: "Fevereiro"
+  MONTH_03: "Março"
+  MONTH_04: "Abril"
+  MONTH_05: "Maio"
+  MONTH_06: "Junho"
+  MONTH_07: "Julho"
+  MONTH_08: "Agosto"
+  MONTH_09: "Setembro"
+  MONTH_10: "Outubro"
+  MONTH_11: "Novembro"
+  MONTH_12: "Dezembro"
+  # Change this variable for changing the meeting weekday
+  DATE_WEEKDAY: "wednesday"
 
 jobs:
   create_issue:
     name: Create team sync issue
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     permissions:
       issues: write
     steps:
-      - name: Set current day
-        id: day
-        run: echo "::set-output name=day::$(date -d 'next wednesday' +%d)"
+      - name: Extract issue template and generate title
+        uses: imjohnbo/extract-issue-template-fields@v0.0.1
+        id: extract
+        with:
+          path: .github/ISSUE_TEMPLATE/reuniao.md
 
-      - name: Set current month
-        id: month
-        run: echo "::set-output name=month::$(date -d 'next wednesday' +%m)"
+      - name: Get meeting date
+        id: date
+        run: |
+          day=$(date -d "next $DATE_WEEKDAY" +%d)
+          month_num=$(date -d "next $DATE_WEEKDAY" +%m)
+          month_var="MONTH_$month_num"
+          month=$(eval echo ${!month_var})
+          year=$(date -d "next $DATE_WEEKDAY" +%Y)
 
-      - name: Set final month name
-        id: month_name
-        run: echo "::set-output name=month_name::${!MONTH_NAME_VAR}"
-        env:
-          MONTH_NAME_VAR: MONTH_${{ steps.month.outputs.month }}
+          meeting_date="$day de $month de $year"
 
-      - name: Set the current year
-        id: year
-        run: echo "::set-output name=year::$(date -d 'next wednesday' +%Y)"
+          echo "::set-output name=date::$meeting_date"
 
       - name: Create meeting issue
-        uses: imjohnbo/issue-bot@3daae12aa54d38685d7ff8459fc8a2aee8cea98b
-        env:
-          DAY: ${{ steps.day.outputs.day }}
-          MONTH_NAME: ${{ steps.month_name.outputs.month_name }}
-          YEAR: ${{ steps.year.outputs.year }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: imjohnbo/issue-bot@v3
         with:
-          assignees: ""
-          labels: "reunião"
-          title: "[Reunião] Geral: $DAY de $MONTH_NAME de $YEAR"
-          body: |
-            # Reunião <Grupo de trabalho ou tema da reunião>
-
-            - Data: <! –– data ––>
-            - Participantes:
-              - Nome e Sobrenome (@Github ou E-mail)
-
-            ## Ata
-
-            _Adicione os itens que foram discutidos durante a reunião._
-
-            -
-
-            ### Ações para serem realizadas
-
-            - [ ] Atividade (@responsável)
-            - [ ]
+          assignees: ${{ steps.extract.outputs.assignees }}
+          labels: ${{ steps.extract.outputs.labels }}
+          title: "[Reunião] Geral: ${{ steps.date.outputs.date }}"
+          body: ${{ steps.extract.outputs.body }}
           pinned: true
           close-previous: false
