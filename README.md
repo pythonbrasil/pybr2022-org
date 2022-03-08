@@ -8,25 +8,6 @@ Local: [Centro de Convênções Vasco Vasques](https://www.google.com/maps/place
 
 Para acompanhar as atividades em andamento, acesse este [link](https://github.com/orgs/pythonbrasil/projects/3). 
 
-<!--Para acessar o site oficial do evento acesse esse [link](https://2022.pythonbrasil.org.br/).
-
- ### Board 
-
-
-
-
-### Discussão
-
-https://github.com/pythonbrasil/pybr2022-org/discussions
-
-### Site
-
-https://2022.pythonbrasil.org.br/
-
-### Código fonte do site:
-
-https://github.com/pythonbrasil/pybr2022-site -->
-
 ## Reuniões
 
 **Organização Geral**: Toda quarta-feira de 18:00 às 19:30 (Fuso Manaus) | 19:00 às 20:30 (Fuso Brasília)
@@ -38,6 +19,16 @@ https://github.com/pythonbrasil/pybr2022-site -->
  - Disponibilizar [Guia De Acessos](https://docs.google.com/document/d/1Byqh1HAAAhM0mjhMbBHr-mhXXABBx9tVqhGaz9Bp5cg/edit?usp=sharing) para novos integrantes
 
 As reuniões são feitas no canal da pybr2022 no discord.
+
+## Grupos de trabalho
+| Grupo | Descrição | Pessoas Responsáveis |
+|---|---|---|
+| Comunicação/Marketing | Desenvolver textos para postagem em redes sociais e canais de divulgação previamente mapeados, entrar em contato com entidades para realizar divulgação do evento. | @time-comunicacao |
+| Design | Criação da nova identidade visual do evento, que deverá ser aplicada para materiais gráficos e digitais que do evento.| @time-design | 
+| Patrocínio | Responsável pelo contato entre empresas e obtenção de recursos para o patrocínio do evento.| @time-patrocinio |
+| Infraestrutura Remota | Responsável por viabilizar a transmissão das palestras e keynotes, lidando com a infraestrutura e contratos para o respectivo serviço. | @time-remota |
+| Site | Responsável pelo desenvolvimento da landing page do site. | @time-site |
+| Organização de trilhas | Coordenação das submissões, seleções e distribuições de atividades e ministrantes. | @time-trilhas |
 
 ## Datas Importantes
 
