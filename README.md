@@ -23,11 +23,11 @@ As reuniões são feitas no canal da pybr2022 no discord.
 ## Grupos de trabalho
 | Grupo | Descrição | Pessoas Responsáveis |
 |---|---|---|
-| Comunicação/Marketing | Desenvolver textos para postagem em redes sociais e canais de divulgação previamente mapeados, entrar em contato com entidades para realizar divulgação do evento. | @time-comunicacao |
-| Design | Criação da nova identidade visual do evento, que deverá ser aplicada para materiais gráficos e digitais que do evento.| @time-design | 
-| Patrocínio | Responsável pelo contato entre empresas e obtenção de recursos para o patrocínio do evento.| @time-patrocinio |
+| Comunicação/Marketing | Desenvolver textos para postagem em redes sociais e canais de divulgação previamente mapeados, entrar em contato com entidades para realizar divulgação do evento. | [@time-comunicacao](https://github.com/orgs/pythonbrasil/teams/time-comunicacao) |
+| Design | Criação da nova identidade visual do evento, que deverá ser aplicada para materiais gráficos e digitais que do evento.| [@time-design](https://github.com/orgs/pythonbrasil/teams/time-design) | 
+| Patrocínio | Responsável pelo contato entre empresas e obtenção de recursos para o patrocínio do evento.| [@time-patrocinio](https://github.com/orgs/pythonbrasil/teams/time-patrocinio) |
 | Infraestrutura Remota | Responsável por viabilizar a transmissão das palestras e keynotes, lidando com a infraestrutura e contratos para o respectivo serviço. | @time-remota |
-| Site | Responsável pelo desenvolvimento da landing page do site. | @time-site |
+| Site | Responsável pelo desenvolvimento da landing page do site. | [@time-site](https://github.com/orgs/pythonbrasil/teams/time-site/members) |
 | Organização de trilhas | Coordenação das submissões, seleções e distribuições de atividades e ministrantes. | @time-trilhas |
 
 ## Datas Importantes
