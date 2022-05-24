@@ -46,3 +46,24 @@ Best,
 Python Brasil 2022
 </pre>
 </details>
+
+<details>
+<summary>Español</summary>
+<br>
+<pre>
+Hola. ¡Buenos días!
+Mi nombre es < Nombre del remitente >. Soy parte de la organización de Python Brasil 2022, el mayor evento sobre el lenguaje de programación Python en América Latina.
+
+¡En 2021, el evento se llevó a cabo durante una semana para 6078 participantes registrados y tuvimos más de 16 700 visitas el primer día! Aquí está el enlace de la última edición: https://2021.pythonbrasil.org.br/
+
+¡Este año, Python Brasil llegó a Manaus! Será la primera edición del evento en el Norte del país. Y estamos buscando empresas que puedan apoyar al  PyBR 22.  < Nombre de la empresa > fue una de las empresas elegidas por la organización porque < Razones para elegir la empresa >.
+
+Tenemos un Plan de Patrocinio que nos gustaría presentarles. ¿Estaría interesado en programar una videollamada para que podamos presentarles el Plan de Patrocinio y discutir una posible colaboración?
+
+Aguardamos su respuesta. ¡Desde ya gracias!
+
+Atentamente,
+< nombre del remitente >
+Python Brasil 2022
+</pre>
+</details>
