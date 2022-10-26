@@ -2,7 +2,7 @@
 
 [![Weekly Team Sync](https://github.com/pythonbrasil/pybr2022-org/actions/workflows/ISSUE_CREATION_WORKFLOW.yml/badge.svg?branch=main)](https://github.com/pythonbrasil/pybr2022-org/actions/workflows/ISSUE_CREATION_WORKFLOW.yml)
 
-Data Oficial do Evento: 15 a 23 de Outubro 2022
+Data Oficial do Evento: 17 a 23 de Outubro 2022
 
 Local: [Centro de Convênções Vasco Vasques](https://www.google.com/maps/place/Centro+de+Conven%C3%A7%C3%B5es+do+Amazonas+-+Vasco+Vasques/@-3.0850963,-60.0276392,15z/data=!4m2!3m1!1s0x0:0x1c983a35228960c1?sa=X&ved=2ahUKEwiKppqJn-n1AhUbGLkGHTYODDIQ_BJ6BAgiEAU)
 
@@ -29,12 +29,3 @@ As reuniões são feitas no canal da pybr2022 no discord.
 | Infraestrutura Remota | Responsável por viabilizar a transmissão das palestras e keynotes, lidando com a infraestrutura e contratos para o respectivo serviço. | @time-remota |
 | Site | Responsável pelo desenvolvimento da landing page do site. | [@time-site](https://github.com/orgs/pythonbrasil/teams/time-site/members) |
 | Organização de trilhas | Coordenação das submissões, seleções e distribuições de atividades e ministrantes. | @time-trilhas |
-
-## Datas Importantes
-
-- 07/04/22 - Abertura do formulario de submissão de palestras
-- 01/06/22 - Avaliação das submissões (Encerramento das submissões)
-- 01/07/22 - Envio dos convites para as palestrantes convidadas
-- 15/07/22 - Divulgação das palestras nas redes sociais
-- 15/08/22 - Divulgação da grade
-- 15/10/22 - Python Brasil 2022
