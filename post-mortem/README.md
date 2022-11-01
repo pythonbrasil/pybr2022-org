@@ -9,10 +9,11 @@ Este post mortem tem como objetivo listar uma série de aprendizados que a organ
 
 ## Sumário
 
-1. Comunicação
-2. Evento Online
-3. Fornecedores
-4. Patrocínio
-5. Reunião
-6. Submissão de atividades
-7. Voluntários
+1. Visão Geral
+2. Comunicação
+3. Evento Online
+4. Fornecedores
+5. Patrocínio
+6. Reunião
+7. Submissão de atividades
+8. Voluntários
