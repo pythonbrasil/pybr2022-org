@@ -9,11 +9,11 @@ Este post mortem tem como objetivo listar uma série de aprendizados que a organ
 
 ## Sumário
 
-1. [Visão Geral](https://github.com/pythonbrasil/pybr2022-org/blob/julianyraiol-patch-5/post-mortem/visao-geral.md)
-2. Comunicação
-3. Evento Online
-4. Fornecedores
-5. Patrocínio
-6. Reunião
-7. Submissão de atividades
-8. Voluntários
+1. [Visão Geral](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/visao-geral.md)
+2. [Comunicação](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/comunicacao.md)
+3. [Evento Online](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/evento-online.md)
+4. [Fornecedores](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/fornecedores.md)
+5. [Patrocínio](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/patrocinio.md)
+6. [Reuniões](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/reunioes.md)
+7. [Submissão de atividades](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/visao-geral.md)
+8. [Voluntárias](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/voluntarias.md)
