@@ -10,12 +10,12 @@ Este post mortem tem como objetivo listar uma série de aprendizados que a organ
 ## Sumário
 
 1. [Visão Geral](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/visao-geral.md)
-2. [Programa de Auxílio Financeiro](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/auxilio.md)
-3. [Comunicação](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/comunicacao.md)
-4. [Evento Online](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/evento-online.md)
-5. [Keynotes](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/keynotes.md)
-6. [Fornecedores](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/fornecedores.md)
-7. [Patrocínio](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/patrocinio.md)
+2. [Comunicação](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/comunicacao.md)
+3. [Evento Online](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/evento-online.md)
+4. [Keynotes](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/keynotes.md)
+5. [Fornecedores](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/fornecedores.md)
+6. [Patrocínio](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/patrocinio.md)
+7. [Programa de Auxílio Financeiro](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/auxilio.md)
 8. [Reuniões](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/reunioes.md)
 9. [Submissão de atividades](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/submissao-atividades.md)
 10. [Voluntárias](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/voluntarias.md)
