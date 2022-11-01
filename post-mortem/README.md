@@ -15,5 +15,5 @@ Este post mortem tem como objetivo listar uma série de aprendizados que a organ
 4. [Fornecedores](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/fornecedores.md)
 5. [Patrocínio](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/patrocinio.md)
 6. [Reuniões](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/reunioes.md)
-7. [Submissão de atividades](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/visao-geral.md)
+7. [Submissão de atividades](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/submissao-atividades.md)
 8. [Voluntárias](https://github.com/pythonbrasil/pybr2022-org/tree/main/post-mortem/voluntarias.md)
